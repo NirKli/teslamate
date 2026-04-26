@@ -42,6 +42,7 @@
 - build(deps-dev): bump sass from 1.97.3 to 1.99.0 in /assets (#5261 - @swiffer)
 - build(deps): update packages in /website and remove obsolete overrides (#5264 - @swiffer)
 - build(deps): update flake.lock (#5275)
+- build(deps): update flake.lock (#5288)
 
 #### Dashboards
 
