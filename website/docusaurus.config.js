@@ -10,9 +10,9 @@ module.exports = {
     v4: true,
   },
   storage: {
-    type: 'localStorage',
+    type: "localStorage",
     namespace: true,
- },
+  },
   themeConfig: {
     navbar: {
       title: "TeslaMate",
