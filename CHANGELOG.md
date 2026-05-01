@@ -4,6 +4,8 @@
 
 ### New features
 
+- feat: handle sleep behavior of MCU2 upgraded cars (#4453 - @micves, @JakobLichterfeld and @brianmay)
+
 ### Improvements and bug fixes
 
 - feat(webview): Sort vehicles by display_priority (#5188 - @olsoybakk and @swiffer)
@@ -12,6 +14,7 @@
 - fix(webview): Prevent rounding of map tiles via Bulma CSS (#5265 - @swiffer)
 - perf: ensure BRIN indexes don't degrade over time (#5276 - @swiffer)
 - fix: fix folder creation and bash 3.2 compatibility in dashboards.sh (#5233 - @svennergr)
+- fix: handle nil tire pressure values in summary view (#5297 - @elemated)
 
 #### Build, CI, internal
 
@@ -41,10 +44,11 @@
 - build(deps-dev): bump esbuild from 0.27.3 to 0.27.7 in /assets (#5261 - @swiffer)
 - build(deps-dev): bump esbuild-sass-plugin from 3.6.0 to 3.7.0 in /assets (#5261 - @swiffer)
 - build(deps-dev): bump sass from 1.97.3 to 1.99.0 in /assets (#5261 - @swiffer)
-- build(deps): update packages in /website and remove obsolete overrides (#5264 - @swiffer)
+- build(deps): update packages in /website and remove obsolete overrides (#5266 - @swiffer)
 - build(deps): update flake.lock (#5275)
 - build(deps): update flake.lock (#5288)
 - build(deps): bump docusaurus from 3.9.2 to 3.10.0 in /website (#5302 - @swiffer)
+- refactor: replace fake_online_state integer with typed mcu2_online_check atom (#5245 - @brianmay)
 
 #### Dashboards
 
