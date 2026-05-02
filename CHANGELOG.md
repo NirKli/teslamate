@@ -52,6 +52,9 @@
 - fix: update GitHub Actions configuration for Dependabot to include action directories (#5316 - @swiffer)
 - build(deps): bump docker/login-action from 4.0.0 to 4.1.0, docker/build-push-action from 7.0.0 to 7.1.0, actions/upload-artifact from 7.0.0 to 7.0.1, actions/upload-artifact/merge from 7.0.0 to 7.0.1, erlef/setup-beam from 1.18.1 to 1.24.0, actions/cache from 5.0.4 to 5.0.5, actions/cache/restore from 5.0.4 to 5.0.5, actions/cache/save from 5.0.4 to 5.0.5 and crate-ci/typos from 1.45.0 to 1.46.0 (#5317)
 - build(deps): bump leaflet-geoman-free from 2.19.2 to 2.19.3 in /assets (#5301 - @swiffer)
+- build(deps): bump plug_cowboy from 2.8.0 to 2.8.1 (#5314)
+- build(deps-dev): bump esbuild from 0.27.7 to 0.28.0 in /assets (#5312)
+- build(deps-dev): bump credo from 1.7.17 to 1.7.18 (#5315)
 
 #### Dashboards
 
