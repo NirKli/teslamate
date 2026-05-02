@@ -69,6 +69,7 @@
 #### Translations
 
 - i18n: updated Catalan default.po (#5180 - @pellix)
+- i18n: Update Korean translations in default.po (#5218 - @dongbum)
 
 #### Documentation
 
