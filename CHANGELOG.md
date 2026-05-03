@@ -4,6 +4,8 @@
 
 ### New features
 
+- feat: handle sleep behavior of MCU2 upgraded cars (#4453 - @micves, @JakobLichterfeld and @brianmay)
+
 ### Improvements and bug fixes
 
 - feat(webview): Sort vehicles by display_priority (#5188 - @olsoybakk and @swiffer)
@@ -11,6 +13,8 @@
 - feat(webview): Add dark mode support for background and buttons in the map (#5240 - @olsoybakk and @swiffer)
 - fix(webview): Prevent rounding of map tiles via Bulma CSS (#5265 - @swiffer)
 - perf: ensure BRIN indexes don't degrade over time (#5276 - @swiffer)
+- fix: fix folder creation and bash 3.2 compatibility in dashboards.sh (#5233 - @svennergr)
+- fix: handle nil tire pressure values in summary view (#5297 - @elemated)
 
 #### Build, CI, internal
 
@@ -40,8 +44,18 @@
 - build(deps-dev): bump esbuild from 0.27.3 to 0.27.7 in /assets (#5261 - @swiffer)
 - build(deps-dev): bump esbuild-sass-plugin from 3.6.0 to 3.7.0 in /assets (#5261 - @swiffer)
 - build(deps-dev): bump sass from 1.97.3 to 1.99.0 in /assets (#5261 - @swiffer)
-- build(deps): update packages in /website and remove obsolete overrides (#5264 - @swiffer)
+- build(deps): update packages in /website and remove obsolete overrides (#5266 - @swiffer)
 - build(deps): update flake.lock (#5275)
+- build(deps): update flake.lock (#5288)
+- build(deps): bump docusaurus from 3.9.2 to 3.10.0 in /website (#5302 - @swiffer)
+- refactor: replace fake_online_state integer with typed mcu2_online_check atom (#5245 - @brianmay)
+- fix: update GitHub Actions configuration for Dependabot to include action directories (#5316 - @swiffer)
+- build(deps): bump docker/login-action from 4.0.0 to 4.1.0, docker/build-push-action from 7.0.0 to 7.1.0, actions/upload-artifact from 7.0.0 to 7.0.1, actions/upload-artifact/merge from 7.0.0 to 7.0.1, erlef/setup-beam from 1.18.1 to 1.24.0, actions/cache from 5.0.4 to 5.0.5, actions/cache/restore from 5.0.4 to 5.0.5, actions/cache/save from 5.0.4 to 5.0.5 and crate-ci/typos from 1.45.0 to 1.46.0 (#5317)
+- build(deps): bump leaflet-geoman-free from 2.19.2 to 2.19.3 in /assets (#5301 - @swiffer)
+- build(deps): bump plug_cowboy from 2.8.0 to 2.8.1 (#5314)
+- build(deps-dev): bump esbuild from 0.27.7 to 0.28.0 in /assets (#5312)
+- build(deps-dev): bump credo from 1.7.17 to 1.7.18 (#5315)
+- sec(deps): add uuid override to version 14.0.0 in /website (#5320 - @JakobLichterfeld)
 
 #### Dashboards
 
@@ -55,6 +69,7 @@
 #### Translations
 
 - i18n: updated Catalan default.po (#5180 - @pellix)
+- i18n: Update Korean translations in default.po (#5218 - @dongbum)
 
 #### Documentation
 
